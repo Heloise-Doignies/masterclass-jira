@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Tilt+Neon&display=swap');
+
+body {
+  background: linear-gradient(272deg, #73c0ac, #d5dc52, #c052dc);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 29s ease infinite;
+  -moz-animation: AnimationName 29s ease infinite;
+  animation: AnimationName 29s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+#bloc {
+  background-color: white;
+  width: 50%;
+  border-radius:5px;
+  margin:auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+
+h1 {
+  color: red;
+  font-family: 'Tilt Neon', cursive;
+  text-shadow: 5px 5px 15px;
+}
+
+h2 {
+  font-family: 'Tilt Neon', cursive;
+}
+
+p {
+  font-family: 'Golos Text', sans-serif;
+}
+
+.mailToButton { 
+  background: lightsalmon;
+  border:none;
+  padding: 10px 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+.mailToButton:hover {
+  background: salmon;
+  cursor:pointer;
+}
+
+.customers-bloc {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin:20px;
+} 
+
+.customers-logo {
+  width:auto;
+  height:50px;
+}
+
+.building {
+  width:500px;
+  border-radius:5px;
+}
+
+.emploi a {
+  color:salmon;
+  font-family: 'Golos Text', sans-serif;
+  font-weight: bold;
+}
+
+.emploi a:hover {
+  color:rgb(204, 92, 80);
+}
